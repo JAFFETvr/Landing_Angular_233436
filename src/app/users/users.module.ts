@@ -4,6 +4,7 @@ import { UserFormComponent } from './user-form/user-form.component';
 import { UsersDashboardComponent } from './users-dashboard/users-dashboard.component';
 import { FormsModule } from '@angular/forms';
 import { UsersFooterComponent } from './users-footer/users-footer.component';
+import { UsersPart3Component } from './users-part3/users-part3.component';
 
 
 
@@ -11,7 +12,8 @@ import { UsersFooterComponent } from './users-footer/users-footer.component';
   declarations: [
     UsersDashboardComponent,
     UserFormComponent,
-    UsersFooterComponent
+    UsersFooterComponent,
+    UsersPart3Component
   ],
   imports: [
     CommonModule,
