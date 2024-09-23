@@ -1,0 +1,31 @@
+#footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#conteiner {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+}
+
+h1, p {
+    margin: 0; 
+    padding: 0 20px;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  transition: cubic-bezier(0.23, 1, 0.320, 1);
+
+}
+h1 ,p:hover{
+    transition: 3s 0ms;
+    color: rgba(255, 0, 0, 0.596);
+    text-shadow: 1px 1px 1px black;
+}
