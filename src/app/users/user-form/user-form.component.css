@@ -3,7 +3,7 @@
     width: 90%;
     height: 450px;
     display: flex;
-    justify-content: space-between; /* Espacio entre los divs */
+    justify-content: space-between; 
     align-items: center;
     margin-left: 60px;
     margin-top: 90px;

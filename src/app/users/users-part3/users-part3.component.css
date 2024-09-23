@@ -2,14 +2,23 @@
    height: 300px;
 }
 #img6{
-    margin: 10px;
     width: 270px;
     height: 180px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+
 }
 #img7{
-    margin: 10px;
     width: 270px;
     height: 180px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 #div_central{
     display: flex;
@@ -17,4 +26,22 @@
     border: 2px black solid;
     margin: 20px;
     
+}
+#titulo {
+    font-size: 30px;
+    margin: 50px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#contenedor_h3{
+border: 2px black solid;
+    margin: 20px;
+    border-radius: 15%;
+}
+#contener_h1{
+    margin: 20px;
+    border: 2px black solid;
+    border-radius: 15%;
 }
